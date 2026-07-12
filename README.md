@@ -1,13 +1,27 @@
-# Bible in XML
-Welcome. Here you will find XML Bibles from various languages, created from the pasted 15 years.
-200+ Languages and 1000+ Bible Versions.
-Any questions or comments: andrey@beblia.com
+# Bibles — unified XML and JSON collections
 
-Use at your own discretion, no need to ask for permission, no warranty’s.
+Bible translations in 300+ languages (1,000+ versions), each available in two
+consistent machine-readable forms so apps can switch between versions and
+formats without special-casing:
 
-Author: Proud Slave of Christ
+| folder | contents |
+|---|---|
+| [`XML/`](XML) | 1,087 bibles in one unified XML dialect — see [`XML/README.md`](XML/README.md) |
+| [`JSON/`](JSON) | the same 1,087 bibles as JSON, plus `index.json` (catalogue) — see [`JSON/README.md`](JSON/README.md) |
+| [`scripts/`](scripts) | the converters and the language/version naming map |
 
-Visit our site:
-https://beblia.com
-God Bless.
-Thank you.
+All files are named `{language code}_{Language name}_{Version}[_{year}]`
+(ISO 639-1 codes where available, otherwise ISO 639-3), share the same
+book/chapter/verse structure with canonical book numbers and stable 3-letter
+book ids, and preserve all Unicode exactly. Duplicate copies of the same
+translation were discarded during conversion (verified verse by verse); the
+log is in [`JSON/README.md`](JSON/README.md).
+
+The original source XMLs (mixed dialects, original filenames) are preserved on
+the [`master`](../../tree/master) branch.
+
+---
+
+Source collection: XML bibles gathered over 15 years, courtesy of
+[beblia.com](https://beblia.com) (andrey@beblia.com) — "Use at your own
+discretion, no need to ask for permission, no warranties."

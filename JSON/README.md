@@ -1,9 +1,10 @@
 # Bible JSON collection
 
-Every file in this folder was generated from the XML bibles at the repository
-root by [`scripts/xml_to_json.py`](../scripts/xml_to_json.py). All files share
-one structure so an app can switch between any two translations without
-special-casing.
+Every file in this folder was generated from the original XML bibles (kept on
+the `master` branch) by [`scripts/xml_to_json.py`](../scripts/xml_to_json.py).
+All files share one structure so an app can switch between any two
+translations without special-casing. The same collection in a unified XML
+dialect lives in [`../XML`](../XML).
 
 ## File naming
 
