@@ -68,9 +68,10 @@ Notes:
 
 ## Duplicates discarded
 
-Fourteen source XMLs were not converted because they duplicate another file's
-translation text (verified verse by verse). The kept counterpart and reasons
-are recorded in `DISCARD` in [`scripts/naming_map.py`](../scripts/naming_map.py):
+Twenty-two source XMLs were not converted because they duplicate another
+file's translation text (verified verse by verse). The kept counterpart and
+reasons are recorded in `DISCARD` in
+[`scripts/naming_map.py`](../scripts/naming_map.py):
 
 | discarded source | kept instead |
 |---|---|
@@ -88,3 +89,11 @@ are recorded in `DISCARD` in [`scripts/naming_map.py`](../scripts/naming_map.py)
 | `EnglishYLTBible.xml` | `Young's Literal Translation (1898).xml` |
 | `Tamil Bible.xml` | `TamilBible.xml` |
 | `The Darby Bible (1890).xml` | `EnglishDarbyBible.xml` (more complete copy) |
+| `Cebuano1999Bible.xml` | `CebuanoRCPVBible.xml` (more complete copy) |
+| `ChinTedim2011Bible.xml` | `ChinTDBBible.xml` |
+| `EnglishNASUBible.xml` | `New American Bible.xml` (NASU label was wrong; text is the NAB) |
+| `EnglishNIRVBible.xml` | `New International Reader's Version (1998).xml` |
+| `EnglishTyndaleBible.xml` | `Tyndale-Rogers-Coverdale-Cranmer Bible (1537).xml` |
+| `Romani2004Bible.xml` | `RomaniKALD2004Bible.xml` |
+| `Romani2007Bible.xml` | `RomaniROM07Bible.xml` |
+| `TagalogRevised2005Bible.xml` | `Tagalog2005Bible.xml` (more complete copy) |

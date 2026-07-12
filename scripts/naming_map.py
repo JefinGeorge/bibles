@@ -24,6 +24,14 @@ DISCARD = {
     "EnglishYLTBible.xml": "same YLT 1898 translation as 'Young's Literal Translation (1898).xml' (digitization variants only)",
     "Tamil Bible.xml": "same translation as 'TamilBible.xml' (12 of 31102 verses differ)",
     "The Darby Bible (1890).xml": "same Darby 1890 translation as 'EnglishDarbyBible.xml', which is the more complete copy (65 more verses)",
+    "Cebuano1999Bible.xml": "same 1999 Cebuano popular version as 'CebuanoRCPVBible.xml', which is the more complete copy",
+    "ChinTedim2011Bible.xml": "same Tedim Bible revision as 'ChinTDBBible.xml' (18 of 31044 verses differ)",
+    "EnglishNASUBible.xml": "labeled NASU but its text is the New American Bible; duplicate of 'New American Bible.xml'",
+    "EnglishNIRVBible.xml": "same NIRV text as 'New International Reader's Version (1998).xml' (16 of 31100 verses differ)",
+    "EnglishTyndaleBible.xml": "same Matthew Bible 1537 text as 'Tyndale-Rogers-Coverdale-Cranmer Bible (1537).xml' (2 verses differ)",
+    "Romani2004Bible.xml": "same Kalderash 2004 edition as 'RomaniKALD2004Bible.xml'",
+    "Romani2007Bible.xml": "same Chilean Vlax 2007 NT as 'RomaniROM07Bible.xml'",
+    "TagalogRevised2005Bible.xml": "same Magandang Balita Biblia 2005 as 'Tagalog2005Bible.xml', which is the more complete copy",
 }
 
 # Human-named source files, curated directly: file -> (code, Language, Version, year or None)
@@ -373,6 +381,7 @@ FILE_OVERRIDES = {
     "Dinka2006Bible.xml": {"code": "dik"},          # Southwestern Dinka per metadata
     "DinkaBible.xml": {"code": "dip"},              # DIP = Northeastern Dinka (DIPBSS 2009)
     "DinkaLEKJOTBible.xml": {"code": "dks"},        # Southeastern Dinka per metadata
+    "EnglishESVBible.xml": {"year": 2016},          # metadata: ESV 2016 text edition
     "Fulfulde2010Bible.xml": {"code": "fuv"},       # Caka Nigeria
     "FulfuldeAdamawaBible.xml": {"code": "fub"},
     "FulfuldeAlkawalBible.xml": {"code": "fuq"},    # Central-Eastern Niger
