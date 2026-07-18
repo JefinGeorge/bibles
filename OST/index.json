@@ -1,0 +1,463 @@
+{
+ "format": "bible.json-index/1",
+ "version": "Open Scriptures Translation",
+ "license": {
+  "name": "CC BY-SA 4.0",
+  "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "note": "Creative Commons Attribution-ShareAlike 4.0 International. Irrevocable; all derivative works must carry this same license."
+ },
+ "count": 41,
+ "bibles": [
+  {
+   "file": "ar_Arabic_OST.json",
+   "language": {
+    "code": "ar",
+    "name": "Arabic"
+   },
+   "stage": "seed",
+   "seeded_from": "ar_Arabic_SVD_1865.json",
+   "books": 66,
+   "verses": 31102
+  },
+  {
+   "file": "bg_Bulgarian_OST.json",
+   "language": {
+    "code": "bg",
+    "name": "Bulgarian"
+   },
+   "stage": "seed",
+   "seeded_from": "bg_Bulgarian_Verens_1871.json",
+   "books": 66,
+   "verses": 31101
+  },
+  {
+   "file": "cs_Czech_OST.json",
+   "language": {
+    "code": "cs",
+    "name": "Czech"
+   },
+   "stage": "seed",
+   "seeded_from": "cs_Czech_Kralichka_1613.json",
+   "books": 66,
+   "verses": 31102
+  },
+  {
+   "file": "cy_Welsh_OST.json",
+   "language": {
+    "code": "cy",
+    "name": "Welsh"
+   },
+   "stage": "seed",
+   "seeded_from": "cy_Welsh_Bible_1894.json",
+   "books": 27,
+   "verses": 7949
+  },
+  {
+   "file": "da_Danish_OST.json",
+   "language": {
+    "code": "da",
+    "name": "Danish"
+   },
+   "stage": "seed",
+   "seeded_from": "da_Danish_Bible.json",
+   "books": 66,
+   "verses": 31102
+  },
+  {
+   "file": "de_German_OST.json",
+   "language": {
+    "code": "de",
+    "name": "German"
+   },
+   "stage": "seed",
+   "seeded_from": "de_German_Luther_1912.json",
+   "books": 66,
+   "verses": 31173
+  },
+  {
+   "file": "ee_Ewe_OST.json",
+   "language": {
+    "code": "ee",
+    "name": "Ewe"
+   },
+   "stage": "seed",
+   "seeded_from": "ee_Ewe_Bible_1913.json",
+   "books": 66,
+   "verses": 31139
+  },
+  {
+   "file": "el_Greek_OST.json",
+   "language": {
+    "code": "el",
+    "name": "Greek"
+   },
+   "stage": "seed",
+   "seeded_from": "el_Greek_Modern_1904.json",
+   "books": 66,
+   "verses": 31102
+  },
+  {
+   "file": "en_English_OST.json",
+   "language": {
+    "code": "en",
+    "name": "English"
+   },
+   "stage": "seed",
+   "seeded_from": "en_English_ASV_1901.json",
+   "books": 66,
+   "verses": 31101
+  },
+  {
+   "file": "eo_Esperanto_OST.json",
+   "language": {
+    "code": "eo",
+    "name": "Esperanto"
+   },
+   "stage": "seed",
+   "seeded_from": "eo_Esperanto_Bible_1926.json",
+   "books": 66,
+   "verses": 31102
+  },
+  {
+   "file": "es_Spanish_OST.json",
+   "language": {
+    "code": "es",
+    "name": "Spanish"
+   },
+   "stage": "seed",
+   "seeded_from": "es_Spanish_Bible_1909.json",
+   "books": 66,
+   "verses": 31102
+  },
+  {
+   "file": "fa_Persian_OST.json",
+   "language": {
+    "code": "fa",
+    "name": "Persian"
+   },
+   "stage": "seed",
+   "seeded_from": "fa_Persian_Bible_1895.json",
+   "books": 66,
+   "verses": 31020
+  },
+  {
+   "file": "fi_Finnish_OST.json",
+   "language": {
+    "code": "fi",
+    "name": "Finnish"
+   },
+   "stage": "seed",
+   "seeded_from": "fi_Finnish_Bible_1776.json",
+   "books": 66,
+   "verses": 31102
+  },
+  {
+   "file": "fr_French_OST.json",
+   "language": {
+    "code": "fr",
+    "name": "French"
+   },
+   "stage": "seed",
+   "seeded_from": "fr_French_Bible_1910.json",
+   "books": 66,
+   "verses": 31102
+  },
+  {
+   "file": "ga_Irish_OST.json",
+   "language": {
+    "code": "ga",
+    "name": "Irish"
+   },
+   "stage": "seed",
+   "seeded_from": "ga_Irish_Bible_1817.json",
+   "books": 66,
+   "verses": 31102
+  },
+  {
+   "file": "gd_ScottishGaelic_OST.json",
+   "language": {
+    "code": "gd",
+    "name": "ScottishGaelic"
+   },
+   "stage": "seed",
+   "seeded_from": "gd_ScottishGaelic_Bible_1875.json",
+   "books": 27,
+   "verses": 7950
+  },
+  {
+   "file": "gn_Guarani_OST.json",
+   "language": {
+    "code": "gn",
+    "name": "Guarani"
+   },
+   "stage": "seed",
+   "seeded_from": "gn_Guarani_Bible_1913.json",
+   "books": 27,
+   "verses": 7954
+  },
+  {
+   "file": "he_Hebrew_OST.json",
+   "language": {
+    "code": "he",
+    "name": "Hebrew"
+   },
+   "stage": "seed",
+   "seeded_from": "he_Hebrew_Bible_1885.json",
+   "books": 27,
+   "verses": 7959
+  },
+  {
+   "file": "hu_Hungarian_OST.json",
+   "language": {
+    "code": "hu",
+    "name": "Hungarian"
+   },
+   "stage": "seed",
+   "seeded_from": "hu_Hungarian_Karoli_1908.json",
+   "books": 66,
+   "verses": 31102
+  },
+  {
+   "file": "hy_Armenian_OST.json",
+   "language": {
+    "code": "hy",
+    "name": "Armenian"
+   },
+   "stage": "seed",
+   "seeded_from": "hy_Armenian_Ararat_1896.json",
+   "books": 66,
+   "verses": 31098
+  },
+  {
+   "file": "it_Italian_OST.json",
+   "language": {
+    "code": "it",
+    "name": "Italian"
+   },
+   "stage": "seed",
+   "seeded_from": "it_Italian_Riveduta.json",
+   "books": 66,
+   "verses": 31102
+  },
+  {
+   "file": "lv_Latvian_OST.json",
+   "language": {
+    "code": "lv",
+    "name": "Latvian"
+   },
+   "stage": "seed",
+   "seeded_from": "lv_Latvian_Gluck_1685.json",
+   "books": 66,
+   "verses": 31102
+  },
+  {
+   "file": "mg_Malagasy_OST.json",
+   "language": {
+    "code": "mg",
+    "name": "Malagasy"
+   },
+   "stage": "seed",
+   "seeded_from": "mg_Malagasy_Bible_1865.json",
+   "books": 66,
+   "verses": 30956
+  },
+  {
+   "file": "ml_Malayalam_OST.json",
+   "language": {
+    "code": "ml",
+    "name": "Malayalam"
+   },
+   "stage": "seed",
+   "seeded_from": "ml_Malayalam_Bible_1910.json",
+   "books": 66,
+   "verses": 31098
+  },
+  {
+   "file": "my_Burmese_OST.json",
+   "language": {
+    "code": "my",
+    "name": "Burmese"
+   },
+   "stage": "seed",
+   "seeded_from": "my_Burmese_Bible_1928.json",
+   "books": 66,
+   "verses": 31008
+  },
+  {
+   "file": "nl_Dutch_OST.json",
+   "language": {
+    "code": "nl",
+    "name": "Dutch"
+   },
+   "stage": "seed",
+   "seeded_from": "nl_Dutch_Bible.json",
+   "books": 66,
+   "verses": 31102
+  },
+  {
+   "file": "no_Norwegian_OST.json",
+   "language": {
+    "code": "no",
+    "name": "Norwegian"
+   },
+   "stage": "seed",
+   "seeded_from": "no_Norwegian_Bible_1921.json",
+   "books": 66,
+   "verses": 31060
+  },
+  {
+   "file": "or_Odia_OST.json",
+   "language": {
+    "code": "or",
+    "name": "Odia"
+   },
+   "stage": "seed",
+   "seeded_from": "or_Odia_Bible_1840.json",
+   "books": 66,
+   "verses": 31102
+  },
+  {
+   "file": "pt_Portuguese_OST.json",
+   "language": {
+    "code": "pt",
+    "name": "Portuguese"
+   },
+   "stage": "seed",
+   "seeded_from": "pt_Portuguese_Almeida_1753.json",
+   "books": 66,
+   "verses": 31105
+  },
+  {
+   "file": "ru_Russian_OST.json",
+   "language": {
+    "code": "ru",
+    "name": "Russian"
+   },
+   "stage": "seed",
+   "seeded_from": "ru_Russian_Synodal_1876.json",
+   "books": 66,
+   "verses": 31178
+  },
+  {
+   "file": "sl_Slovenian_OST.json",
+   "language": {
+    "code": "sl",
+    "name": "Slovenian"
+   },
+   "stage": "seed",
+   "seeded_from": "sl_Slovenian_Chraska_1914.json",
+   "books": 66,
+   "verses": 31102
+  },
+  {
+   "file": "sq_Albanian_OST.json",
+   "language": {
+    "code": "sq",
+    "name": "Albanian"
+   },
+   "stage": "seed",
+   "seeded_from": "sq_Albanian_Bible_1879.json",
+   "books": 27,
+   "verses": 7945
+  },
+  {
+   "file": "sr_Serbian_OST.json",
+   "language": {
+    "code": "sr",
+    "name": "Serbian"
+   },
+   "stage": "seed",
+   "seeded_from": "sr_Serbian_Latin_1865.json",
+   "books": 66,
+   "verses": 31102
+  },
+  {
+   "file": "sv_Swedish_OST.json",
+   "language": {
+    "code": "sv",
+    "name": "Swedish"
+   },
+   "stage": "seed",
+   "seeded_from": "sv_Swedish_Bible_1917.json",
+   "books": 66,
+   "verses": 31168
+  },
+  {
+   "file": "sw_Swahili_OST.json",
+   "language": {
+    "code": "sw",
+    "name": "Swahili"
+   },
+   "stage": "seed",
+   "seeded_from": "sw_Swahili_SWZZB_1921.json",
+   "books": 27,
+   "verses": 7957
+  },
+  {
+   "file": "te_Telugu_OST.json",
+   "language": {
+    "code": "te",
+    "name": "Telugu"
+   },
+   "stage": "seed",
+   "seeded_from": "te_Telugu_Bible_1880.json",
+   "books": 66,
+   "verses": 31102
+  },
+  {
+   "file": "tn_Tswana_OST.json",
+   "language": {
+    "code": "tn",
+    "name": "Tswana"
+   },
+   "stage": "seed",
+   "seeded_from": "tn_Tswana_Bible_1890.json",
+   "books": 66,
+   "verses": 31101
+  },
+  {
+   "file": "uk_Ukrainian_OST.json",
+   "language": {
+    "code": "uk",
+    "name": "Ukrainian"
+   },
+   "stage": "seed",
+   "seeded_from": "uk_Ukrainian_Bible_1905.json",
+   "books": 66,
+   "verses": 31080
+  },
+  {
+   "file": "vi_Vietnamese_OST.json",
+   "language": {
+    "code": "vi",
+    "name": "Vietnamese"
+   },
+   "stage": "seed",
+   "seeded_from": "vi_Vietnamese_Bible_1925.json",
+   "books": 66,
+   "verses": 31102
+  },
+  {
+   "file": "xh_Xhosa_OST.json",
+   "language": {
+    "code": "xh",
+    "name": "Xhosa"
+   },
+   "stage": "seed",
+   "seeded_from": "xh_Xhosa_Bible_1920.json",
+   "books": 66,
+   "verses": 31101
+  },
+  {
+   "file": "zh_Chinese_OST.json",
+   "language": {
+    "code": "zh",
+    "name": "Chinese"
+   },
+   "stage": "seed",
+   "seeded_from": "zh_Chinese_Traditional_1919.json",
+   "books": 66,
+   "verses": 31101
+  }
+ ]
+}
