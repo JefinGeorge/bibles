@@ -18,7 +18,7 @@ translation were discarded during conversion (verified verse by verse); the
 log is in [`JSON/README.md`](JSON/README.md).
 
 The original source XMLs (mixed dialects, original filenames) are preserved on
-git history under the [`original-xmls`](../../tree/original-xmls) tag.
+git history, browsable at commit [`4ae2ac9`](../../tree/4ae2ac9).
 
 ---
 
