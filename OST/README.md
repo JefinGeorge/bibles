@@ -30,7 +30,7 @@ metadata blocks:
 
 ## Tier 1 — public-domain seeds (current stage)
 
-This folder currently holds **41 languages seeded from public-domain-era
+This folder currently holds **46 languages seeded from public-domain-era
 translations** found in this repository — the same method the World English
 Bible used (a revision of the public-domain ASV 1901). Each file's
 `status.seeded_from` names its exact base; highlights: English ASV 1901,
@@ -41,26 +41,45 @@ Statenvertaling, Czech Kralická 1613. Eight languages are New Testament only
 
 Caveats recorded honestly:
 
-* Public-domain status was assessed from publication years (≤1928) and
+* Public-domain status was assessed from publication years (pre-1931) and
   explicit markings; **verify locally before redistribution**, since copyright
   terms vary by jurisdiction (life + 70 in much of the world).
 * Romanian was deliberately *not* seeded: the Cornilescu lineage's
   public-domain status is contested.
+* Chichewa was *not* seeded: the collection's file is the copyrighted 2014
+  Buku Lopatulika revision, not the public-domain 1922 text its title cites.
+* The Tagalog seed is labeled "Ang Biblia 1905/1982" — confirm the text is
+  the 1905 edition (public domain), not the 1982 revision, before relying
+  on it.
 * Classical languages (Ancient Greek, Latin, Literary Chinese) are source
   texts, not translation targets.
 
-## Tier 2 — the remaining ~240 languages
+## Tier 2 — the remaining ~235 languages
 
 Languages whose only available translations are copyrighted cannot be seeded
 from them (a reworded copyrighted translation is still a derivative work).
 They need fresh translation from the source texts — the collection includes
 public-domain Hebrew (Leningrad, Aleppo) and Greek (Stephanus 1550, Byzantine)
 bases — via human translators or AI-assisted drafts **with mother-tongue
-review** before any file is marked `reviewed`.
+review** before any file is marked `reviewed`. The workflow, sourcing rules,
+and review requirements are in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+**Pilot:** `ko_Korean_OST.json` — Gospel of Mark chapter 1, drafted from the
+Greek source text and marked `stage: "draft"` (unreviewed). Korean has no
+public-domain bible in this collection; the pilot exists to exercise the
+draft → review pipeline end to end.
+
+Another Tier-2 accelerant worth pursuing: importing openly licensed or
+public-domain texts from *outside* this repository (e.g. the public-domain
+World English Bible family, the CC BY-SA Free Bible Version, the Korean 구역
+of 1911, the Japanese 大正改訳 of 1917 via sources like ebible.org).
 
 ## Roadmap
 
-1. ✅ Seed from public-domain texts (41 languages)
-2. Modernize seed languages book by book (`seed` → `draft` → `reviewed`)
-3. Recruit mother-tongue reviewers per language
-4. Draft Tier-2 languages from the source texts, review, and add
+1. ✅ Seed from public-domain texts (46 languages)
+2. ✅ Define the contribution/review workflow and pilot the draft stage
+   (Korean, Mark 1)
+3. Modernize seed languages book by book (`seed` → `draft` → `reviewed`)
+4. Recruit mother-tongue reviewers per language
+5. Import external public-domain / openly licensed texts where they exist
+6. Draft remaining Tier-2 languages from the source texts, review, and add

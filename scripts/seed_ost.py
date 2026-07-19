@@ -54,14 +54,17 @@ SEEDS = {
     "he": "he_Hebrew_Bible_1885.json",          # Delitzsch Hebrew NT
     "hu": "hu_Hungarian_Karoli_1908.json",      # Károli revision 1908
     "hy": "hy_Armenian_Ararat_1896.json",       # Ararat translation
+    "id": "id_Indonesian_TL_1954.json",         # Terjemahan Lama (Klinkert/Bode lineage)
     "it": "it_Italian_Riveduta.json",           # Riveduta 1924 (Luzzi d. 1948)
     "lv": "lv_Latvian_Gluck_1685.json",         # Glück 1685
     "mg": "mg_Malagasy_Bible_1865.json",
     "ml": "ml_Malayalam_Bible_1910.json",
     "my": "my_Burmese_Bible_1928.json",         # Judson lineage
+    "ngl": "ngl_Lomwe_Bible_1930.json",         # NT only, published 1930
     "nl": "nl_Dutch_Bible.json",                # Statenvertaling (Jongbloed edition)
     "no": "no_Norwegian_Bible_1921.json",
     "or": "or_Odia_Bible_1840.json",
+    "pl": "pl_Polish_Gdansk.json",              # Biblia Gdańska 1881-1910 revision
     "pt": "pt_Portuguese_Almeida_1753.json",    # Almeida 1753, marked public domain
     "ru": "ru_Russian_Synodal_1876.json",       # Synodal translation
     "sl": "sl_Slovenian_Chraska_1914.json",     # Chráska
@@ -70,7 +73,10 @@ SEEDS = {
     "sv": "sv_Swedish_Bible_1917.json",         # 1917 års översättning
     "sw": "sw_Swahili_SWZZB_1921.json",         # NT only
     "te": "te_Telugu_Bible_1880.json",
+    "tl": "tl_Tagalog_Bible.json",              # Ang Biblia 1905 -- CONFIRM the text is the
+                                                # 1905 edition, not the 1982 revision
     "tn": "tn_Tswana_Bible_1890.json",
+    "ts": "ts_Tsonga_Bible_1929.json",          # published 1929
     "uk": "uk_Ukrainian_Bible_1905.json",       # Kulish translation
     "vi": "vi_Vietnamese_Bible_1925.json",      # 1925 translation
     "xh": "xh_Xhosa_Bible_1920.json",
@@ -80,6 +86,8 @@ SEEDS = {
 # Deliberately not seeded despite public-domain-era texts in the collection:
 #   grc, la, lzh - classical/source languages, not living translation targets
 #   ro          - the Cornilescu lineage's public-domain status is contested
+#   ny          - the corpus Chichewa file is the 2014 Buku Lopatulika revision
+#                 (copyrighted), not the public-domain 1922 text its title cites
 
 
 def main():
