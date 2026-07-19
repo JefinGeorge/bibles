@@ -4,8 +4,8 @@ Every file in this folder is generated from the matching file in
 [`../JSON`](../JSON) by [`scripts/json_to_xml.py`](../scripts/json_to_xml.py).
 All files share one XML dialect so an app can switch between any two bible
 versions — or between the XML and JSON form of the same version — without
-special-casing. The original source XMLs (mixed dialects) remain available on
-the `master` branch.
+special-casing. The original source XMLs (mixed dialects) remain available under
+the `original-xmls` git tag.
 
 ## File naming
 
